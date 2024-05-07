@@ -17,7 +17,7 @@
         <input type="text" name="password" id="passowrd" placeholder="패스워드">
         <input type="text" name="name" id="name" placeholder="이름">
         <input type="text" name="age" id="age" placeholder="나이">
-        <input type="text" name="phone" id="phone" placeholder="전화번호">
+        <input type="text" name="mobile" id="mobile" placeholder="전화번호">
         <input type="submit" value="회원 가입">
     </form>
 </body>
