@@ -19,7 +19,7 @@ public class MemberApiController {
     private final MemberService memberService;
 
     @PostMapping("/login")
-    public ResponseEntity<?> login(@ModelAttribute MemberDto memberDto){
+    public ResponseEntity<?> login(@RequestBody MemberDto memberDto){
         System.out.println(memberDto);
         boolean result = memberService.login(memberDto);
         return new ResponseEntity<>(result, HttpStatus.OK);
